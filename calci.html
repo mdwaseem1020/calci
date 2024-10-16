@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calci.css">
+</head>
+<body>
+
+    <div id="calculator">
+        <input id="display" >
+        <div id="keys">
+            <button onclick="x('+')" value="+">+</button>
+            <button onclick="x('7')" value="7">7</button>
+            <button onclick="x('8')" value="8">8</button>
+            <button onclick="x('9')" value="9">9</button>
+            <button onclick="x('-')" value="-">-</button>
+            <button onclick="x('4')" value="4">4</button>
+            <button onclick="x('5')" value="5">5</button>
+            <button onclick="x('6')" value="6">6</button>
+            <button onclick="x('')" value="">*</button>
+            <button onclick="x('1')" value="1">1</button>
+            <button onclick="x('2')" value="2">2</button>
+            <button onclick="x('3')" value="3">3</button>
+            <button onclick="x('/')" value="/">/</button>
+            <button onclick="x('0')" value="0">0</button>
+            <button onclick="x('.')" value=".">.</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="clearDisplay()">C</button>
+        </div>
+    </div>
+
+    <script src="calci.js"></script>
+</body>
+</html>
